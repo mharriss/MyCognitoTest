@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B2018AE1FCA274C00CC297A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2018AD1FCA274C00CC297A /* AppDelegate.swift */; };
+		6B2018B01FCA274D00CC297A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2018AF1FCA274D00CC297A /* ViewController.swift */; };
+		6B2018B31FCA274D00CC297A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2018B11FCA274D00CC297A /* Main.storyboard */; };
+		6B2018B51FCA274D00CC297A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B2018B41FCA274D00CC297A /* Assets.xcassets */; };
+		6B2018B81FCA274D00CC297A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2018B61FCA274D00CC297A /* LaunchScreen.storyboard */; };
+		6B2018C31FCA274D00CC297A /* MyCognitoTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2018C21FCA274D00CC297A /* MyCognitoTestTests.swift */; };
+		6B2018CE1FCA274D00CC297A /* MyCognitoTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2018CD1FCA274D00CC297A /* MyCognitoTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B2018BF1FCA274D00CC297A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B2018A21FCA274C00CC297A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B2018A91FCA274C00CC297A;
+			remoteInfo = MyCognitoTest;
+		};
+		6B2018CA1FCA274D00CC297A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B2018A21FCA274C00CC297A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B2018A91FCA274C00CC297A;
+			remoteInfo = MyCognitoTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B2018AA1FCA274C00CC297A /* MyCognitoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCognitoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2018AD1FCA274C00CC297A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B2018AF1FCA274D00CC297A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B2018B21FCA274D00CC297A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B2018B41FCA274D00CC297A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B2018B71FCA274D00CC297A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B2018B91FCA274D00CC297A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B2018BE1FCA274D00CC297A /* MyCognitoTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCognitoTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2018C21FCA274D00CC297A /* MyCognitoTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCognitoTestTests.swift; sourceTree = "<group>"; };
+		6B2018C41FCA274D00CC297A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B2018C91FCA274D00CC297A /* MyCognitoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCognitoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2018CD1FCA274D00CC297A /* MyCognitoTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCognitoTestUITests.swift; sourceTree = "<group>"; };
+		6B2018CF1FCA274D00CC297A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B2018A71FCA274C00CC297A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2018BB1FCA274D00CC297A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2018C61FCA274D00CC297A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B2018A11FCA274C00CC297A = {
+			isa = PBXGroup;
+			children = (
+				6B2018AC1FCA274C00CC297A /* MyCognitoTest */,
+				6B2018C11FCA274D00CC297A /* MyCognitoTestTests */,
+				6B2018CC1FCA274D00CC297A /* MyCognitoTestUITests */,
+				6B2018AB1FCA274C00CC297A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B2018AB1FCA274C00CC297A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B2018AA1FCA274C00CC297A /* MyCognitoTest.app */,
+				6B2018BE1FCA274D00CC297A /* MyCognitoTestTests.xctest */,
+				6B2018C91FCA274D00CC297A /* MyCognitoTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B2018AC1FCA274C00CC297A /* MyCognitoTest */ = {
+			isa = PBXGroup;
+			children = (
+				6B2018AD1FCA274C00CC297A /* AppDelegate.swift */,
+				6B2018AF1FCA274D00CC297A /* ViewController.swift */,
+				6B2018B11FCA274D00CC297A /* Main.storyboard */,
+				6B2018B41FCA274D00CC297A /* Assets.xcassets */,
+				6B2018B61FCA274D00CC297A /* LaunchScreen.storyboard */,
+				6B2018B91FCA274D00CC297A /* Info.plist */,
+			);
+			path = MyCognitoTest;
+			sourceTree = "<group>";
+		};
+		6B2018C11FCA274D00CC297A /* MyCognitoTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B2018C21FCA274D00CC297A /* MyCognitoTestTests.swift */,
+				6B2018C41FCA274D00CC297A /* Info.plist */,
+			);
+			path = MyCognitoTestTests;
+			sourceTree = "<group>";
+		};
+		6B2018CC1FCA274D00CC297A /* MyCognitoTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B2018CD1FCA274D00CC297A /* MyCognitoTestUITests.swift */,
+				6B2018CF1FCA274D00CC297A /* Info.plist */,
+			);
+			path = MyCognitoTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B2018A91FCA274C00CC297A /* MyCognitoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2018D21FCA274D00CC297A /* Build configuration list for PBXNativeTarget "MyCognitoTest" */;
+			buildPhases = (
+				6B2018A61FCA274C00CC297A /* Sources */,
+				6B2018A71FCA274C00CC297A /* Frameworks */,
+				6B2018A81FCA274C00CC297A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCognitoTest;
+			productName = MyCognitoTest;
+			productReference = 6B2018AA1FCA274C00CC297A /* MyCognitoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B2018BD1FCA274D00CC297A /* MyCognitoTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2018D51FCA274D00CC297A /* Build configuration list for PBXNativeTarget "MyCognitoTestTests" */;
+			buildPhases = (
+				6B2018BA1FCA274D00CC297A /* Sources */,
+				6B2018BB1FCA274D00CC297A /* Frameworks */,
+				6B2018BC1FCA274D00CC297A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B2018C01FCA274D00CC297A /* PBXTargetDependency */,
+			);
+			name = MyCognitoTestTests;
+			productName = MyCognitoTestTests;
+			productReference = 6B2018BE1FCA274D00CC297A /* MyCognitoTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B2018C81FCA274D00CC297A /* MyCognitoTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2018D81FCA274D00CC297A /* Build configuration list for PBXNativeTarget "MyCognitoTestUITests" */;
+			buildPhases = (
+				6B2018C51FCA274D00CC297A /* Sources */,
+				6B2018C61FCA274D00CC297A /* Frameworks */,
+				6B2018C71FCA274D00CC297A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B2018CB1FCA274D00CC297A /* PBXTargetDependency */,
+			);
+			name = MyCognitoTestUITests;
+			productName = MyCognitoTestUITests;
+			productReference = 6B2018C91FCA274D00CC297A /* MyCognitoTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B2018A21FCA274C00CC297A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Mark Harriss";
+				TargetAttributes = {
+					6B2018A91FCA274C00CC297A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					6B2018BD1FCA274D00CC297A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6B2018A91FCA274C00CC297A;
+					};
+					6B2018C81FCA274D00CC297A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6B2018A91FCA274C00CC297A;
+					};
+				};
+			};
+			buildConfigurationList = 6B2018A51FCA274C00CC297A /* Build configuration list for PBXProject "MyCognitoTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B2018A11FCA274C00CC297A;
+			productRefGroup = 6B2018AB1FCA274C00CC297A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B2018A91FCA274C00CC297A /* MyCognitoTest */,
+				6B2018BD1FCA274D00CC297A /* MyCognitoTestTests */,
+				6B2018C81FCA274D00CC297A /* MyCognitoTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B2018A81FCA274C00CC297A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2018B81FCA274D00CC297A /* LaunchScreen.storyboard in Resources */,
+				6B2018B51FCA274D00CC297A /* Assets.xcassets in Resources */,
+				6B2018B31FCA274D00CC297A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2018BC1FCA274D00CC297A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2018C71FCA274D00CC297A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B2018A61FCA274C00CC297A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2018B01FCA274D00CC297A /* ViewController.swift in Sources */,
+				6B2018AE1FCA274C00CC297A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2018BA1FCA274D00CC297A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2018C31FCA274D00CC297A /* MyCognitoTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2018C51FCA274D00CC297A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2018CE1FCA274D00CC297A /* MyCognitoTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B2018C01FCA274D00CC297A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B2018A91FCA274C00CC297A /* MyCognitoTest */;
+			targetProxy = 6B2018BF1FCA274D00CC297A /* PBXContainerItemProxy */;
+		};
+		6B2018CB1FCA274D00CC297A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B2018A91FCA274C00CC297A /* MyCognitoTest */;
+			targetProxy = 6B2018CA1FCA274D00CC297A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B2018B11FCA274D00CC297A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B2018B21FCA274D00CC297A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B2018B61FCA274D00CC297A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B2018B71FCA274D00CC297A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B2018D01FCA274D00CC297A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B2018D11FCA274D00CC297A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B2018D31FCA274D00CC297A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyCognitoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JabberStorm.MyCognitoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B2018D41FCA274D00CC297A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyCognitoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JabberStorm.MyCognitoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B2018D61FCA274D00CC297A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyCognitoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JabberStorm.MyCognitoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCognitoTest.app/MyCognitoTest";
+			};
+			name = Debug;
+		};
+		6B2018D71FCA274D00CC297A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyCognitoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JabberStorm.MyCognitoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCognitoTest.app/MyCognitoTest";
+			};
+			name = Release;
+		};
+		6B2018D91FCA274D00CC297A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyCognitoTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JabberStorm.MyCognitoTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyCognitoTest;
+			};
+			name = Debug;
+		};
+		6B2018DA1FCA274D00CC297A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyCognitoTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JabberStorm.MyCognitoTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyCognitoTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B2018A51FCA274C00CC297A /* Build configuration list for PBXProject "MyCognitoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2018D01FCA274D00CC297A /* Debug */,
+				6B2018D11FCA274D00CC297A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B2018D21FCA274D00CC297A /* Build configuration list for PBXNativeTarget "MyCognitoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2018D31FCA274D00CC297A /* Debug */,
+				6B2018D41FCA274D00CC297A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B2018D51FCA274D00CC297A /* Build configuration list for PBXNativeTarget "MyCognitoTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2018D61FCA274D00CC297A /* Debug */,
+				6B2018D71FCA274D00CC297A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B2018D81FCA274D00CC297A /* Build configuration list for PBXNativeTarget "MyCognitoTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2018D91FCA274D00CC297A /* Debug */,
+				6B2018DA1FCA274D00CC297A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B2018A21FCA274C00CC297A /* Project object */;
+}
