@@ -1,0 +1,6 @@
+framework module Pods_MyCognitoTestUITests {
+  umbrella header "Pods-MyCognitoTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
